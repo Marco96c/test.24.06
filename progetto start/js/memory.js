@@ -3,7 +3,7 @@ let arrayAnimali = ['🐱', '🦉', '🐾', '🦁', '🦋', '🐛', '🐝', '�
 //https://html-css-js.com/html/character-codes/
 
 
-let arrayComparison = [];   // non so ma non va
+let arrayComparison = [];
 
 document.body.onload = startGame();
 
@@ -44,7 +44,6 @@ function shuffle(a) {
     }
   
     for(var i = 0; i < 24; i++){    
-      // var id = 'icon-' + i;
       var box = document.createElement('div');
       var element = document.createElement('div');
       element.className = 'icon';
